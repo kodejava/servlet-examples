@@ -3,5 +3,11 @@
         "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-    <display-name>Archetype Created Web Application</display-name>
+    <display-name>Session Counter Example</display-name>
+    <listener>
+        <listener-class>org.kodejava.example.servlet.SessionCounterListener</listener-class>
+    </listener>
+    <session-config>
+        <session-timeout>1</session-timeout>
+    </session-config>
 </web-app>
