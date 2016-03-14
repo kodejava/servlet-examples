@@ -9,7 +9,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>session-counter-example</artifactId>
     <packaging>war</packaging>
-    <name>session-counter-example Maven Webapp</name>
+    <name>session-counter-example</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
@@ -21,16 +21,5 @@
     </dependencies>
     <build>
         <finalName>session-counter-example</finalName>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.2</version>
-                <configuration>
-                    <source>8</source>
-                    <target>8</target>
-                </configuration>
-            </plugin>
-        </plugins>
     </build>
 </project>
